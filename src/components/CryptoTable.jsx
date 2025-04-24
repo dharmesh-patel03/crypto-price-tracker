@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io";
-import { FaStar, FaRegStar } from "react-icons/fa"; // filled and outlined stars
-import { toggleFavorite } from '../features/crypto/cryptoSlice'; // Correct import of toggleFavorite action
+import { FaStar, FaRegStar } from "react-icons/fa"; 
+import { toggleFavorite } from '../features/crypto/cryptoSlice'; 
 
 const CryptoTable = () => {
     const dispatch = useDispatch();
